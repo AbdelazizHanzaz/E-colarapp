@@ -6,38 +6,54 @@ Artisan Home Goods is an e-commerce platform that specializes in handmade home d
 ## Installation
 
 1. Clone the repository:
-
+    
+    '''
     git clone https://github.com/your-username/artisan-home-goods.git
+    '''
 
 2. Navigate to the project directory:
 
+    '''
     cd artisan-home-goods
+    '''
 
 3. Install the PHP dependencies using Composer:
 
+    '''
     composer install
+    '''
 
 4. Copy the `.env.example` file and rename it as `.env`:
-
+     
+    '''
     cp .env.example .env
+    '''
 
 5. Generate an application key:
 
+    '''
     php artisan key:generate
+    '''
 
 6. Configure the database connection by updating the `.env` file with your database credentials.
 
 7. Run the database migrations and seed the database with sample data:
 
+    '''
     php artisan migrate --seed
+    '''
 
 8. Install the JavaScript dependencies using npm:
 
+    '''
     npm install
+    '''
 
 9. Build the frontend assets:
 
+    '''
     npm run dev
+    '''
 
 10. Start the development server:
  ```
